@@ -1,0 +1,88 @@
+@charset "UTF-8";
+
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    max-height: 100vh;
+    background-color: black;
+    background-image: url('../imagens/fundo-madeira.jpg');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+div {
+    text-align: right;
+    padding: 15px;
+}
+
+div a {
+    width: 100px;
+    height: 100px;
+}
+
+div > a > button {
+    margin-bottom: 10px;
+    border: none;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+div > a > button:hover {
+    cursor: pointer;
+}
+
+div > a > button#home {
+    background-image: url(../imagens/logo-home.jpg);
+    background-size: cover;
+}
+
+div > a > button#youtube {
+    background-image: url(../imagens/logo-youtube.jpg);
+    background-size: cover;
+}
+
+div > a > button#github {
+    background-image: url(../imagens/logo-github.jpg);
+    background-size: cover;
+}
+
+div > a > button#instagram {
+    background-image: url(../imagens/logo-instagram.jpg);
+    background-size: cover;
+}
+
+div > a > button#twitter {
+    background-image: url(../imagens/logo-twitter.jpg);
+    background-size: cover;
+}
+
+div > a > button#facebook {
+    background-image: url(../imagens/logo-facebook.jpg);
+    background-size: cover;
+}
+
+img#iframe01 {
+    display: inline-block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 320px;
+    height: 650px;
+}
+
+iframe#iframe02 {
+    position: absolute;
+    display: inline-block;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 276px;
+    height: 495px;
+}
+
