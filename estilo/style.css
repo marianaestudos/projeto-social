@@ -66,13 +66,14 @@ div > a > button#facebook {
     background-size: cover;
 }
 
-img#iframe01 {
-    display: block;
-    margin: auto;
+iframe#iframe01 {
+    display: inline-block;
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    width: 350px;
+    height: 680px;
 }
 
 iframe#iframe02 {
@@ -80,8 +81,8 @@ iframe#iframe02 {
     display: inline-block;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%);
-    width: 276px;
-    height: 495px;
+    transform: translate(-57%, -55%);
+    width: 266px;
+    height: 470px;
 }
 
